@@ -1,8 +1,22 @@
-# 教程 3：WiFi 网页控制 WS2812 灯光效果
+# 教程 4：WiFi 网页控制 WS2812 灯光效果
 
 本教程演示如何让 ESP32-C3 开启一个 WiFi 热点，并在浏览器页面中控制 **GPIO2** 上的 WS2812 灯光效果。灯光库使用 **FastLED**。
 
 完成后，你可以用手机或电脑连接 ESP32-C3 的热点，打开网页设置颜色、亮度、速度和动画模式。
+
+
+## 仓库位置
+
+本教程已经整理在仓库的独立目录中：
+
+```text
+tutorials/04_esp32c3_wifi_ws2812_web/
+├── README.md
+└── esp32c3_wifi_ws2812_web/
+    └── esp32c3_wifi_ws2812_web.ino
+```
+
+Arduino IDE 要求 `.ino` 文件所在文件夹与 `.ino` 文件同名，因此请打开上面子目录中的 `esp32c3_wifi_ws2812_web.ino`，不要只打开外层教程目录。
 
 ## 硬件准备
 
@@ -35,7 +49,7 @@ ESP32-C3 的 WiFi 和 WebServer 功能来自 Arduino ESP32 开发板包，不需
 用 Arduino IDE 打开下面这个草图文件：
 
 ```text
-tutorials/03_esp32c3_wifi_ws2812_web/esp32c3_wifi_ws2812_web/esp32c3_wifi_ws2812_web.ino
+tutorials/04_esp32c3_wifi_ws2812_web/esp32c3_wifi_ws2812_web/esp32c3_wifi_ws2812_web.ino
 ```
 
 ## 上传前需要确认

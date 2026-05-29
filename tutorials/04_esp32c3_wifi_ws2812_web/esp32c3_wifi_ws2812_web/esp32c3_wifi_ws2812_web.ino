@@ -1,4 +1,4 @@
-// 教程 3：通过 WiFi 网页控制 ESP32-C3 上的 WS2812 灯光效果
+// 教程 4：通过 WiFi 网页控制 ESP32-C3 上的 WS2812 灯光效果
 // 需要先在 Arduino IDE 的库管理器中安装 FastLED。
 
 #include <WiFi.h>

@@ -17,11 +17,13 @@
 
 ## 教程目录
 
+完整索引和通用硬件约定请看 [`tutorials/README.md`](tutorials/README.md)。
+
 | 序号 | 教程 | 控制引脚 | 说明 |
 | --- | --- | --- | --- |
 | 1 | [ESP32-C3 点亮普通 LED](tutorials/01_esp32c3_blink_led/README.md) | GPIO2 | 使用 `digitalWrite()` 控制 LED 闪烁 |
 | 2 | [ESP32-C3 点亮 WS2812](tutorials/02_esp32c3_ws2812/README.md) | GPIO2 | 使用 Adafruit NeoPixel 库控制 WS2812 彩灯 |
-| 3 | [WiFi 网页控制 WS2812 灯光效果](tutorials/03_esp32c3_wifi_ws2812_web/README.md) | GPIO2 | 使用 FastLED 和浏览器页面控制 WS2812 动画 |
+| 4 | [WiFi 网页控制 WS2812 灯光效果](tutorials/04_esp32c3_wifi_ws2812_web/README.md) | GPIO2 | 使用 FastLED 和浏览器页面控制 WS2812 动画 |
 
 ## Arduino 草图命名说明
 
