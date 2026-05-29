@@ -1,4 +1,4 @@
-# 教程 4：ESP32-C3 + MPU-6050 制作 8x8 WS2812 重力感应沙漏
+# 教程 3：ESP32-C3 + MPU-6050 制作 8x8 WS2812 重力感应沙漏
 
 本教程演示如何使用 **ESP32-C3** 读取 **MPU-6050** 的加速度数据，并在一块 **8x8 WS2812 / NeoPixel 点阵** 上做一个会随着重力方向流动的电子沙漏。
 
@@ -51,7 +51,7 @@ const int ACCEL_Y_SIGN = 1;
 用 Arduino IDE 打开下面这个草图文件：
 
 ```text
-tutorials/04_esp32c3_mpu6050_ws2812_hourglass/esp32c3_mpu6050_ws2812_hourglass/esp32c3_mpu6050_ws2812_hourglass.ino
+tutorials/03_esp32c3_mpu6050_ws2812_hourglass/esp32c3_mpu6050_ws2812_hourglass/esp32c3_mpu6050_ws2812_hourglass.ino
 ```
 
 ## 上传步骤
