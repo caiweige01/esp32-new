@@ -21,6 +21,7 @@
 | --- | --- | --- | --- |
 | 1 | [ESP32-C3 点亮普通 LED](tutorials/01_esp32c3_blink_led/README.md) | GPIO2 | 使用 `digitalWrite()` 控制 LED 闪烁 |
 | 2 | [ESP32-C3 点亮 WS2812](tutorials/02_esp32c3_ws2812/README.md) | GPIO2 | 使用 Adafruit NeoPixel 库控制 WS2812 彩灯 |
+| 4 | [ESP32-C3 + MPU-6050 制作 8x8 WS2812 重力感应沙漏](tutorials/04_esp32c3_mpu6050_ws2812_hourglass/README.md) | GPIO2 / GPIO4 / GPIO5 | 读取 MPU-6050 加速度数据，让 8x8 WS2812 点阵显示重力感应沙漏 |
 
 ## Arduino 草图命名说明
 
