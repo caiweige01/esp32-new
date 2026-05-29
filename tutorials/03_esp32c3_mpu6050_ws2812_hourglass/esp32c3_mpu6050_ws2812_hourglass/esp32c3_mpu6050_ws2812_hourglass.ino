@@ -1,4 +1,4 @@
-// 教程 4：ESP32-C3 + MPU-6050 + 8x8 WS2812 重力感应沙漏
+// 教程 3：ESP32-C3 + MPU-6050 + 8x8 WS2812 重力感应沙漏
 // 需要先在 Arduino IDE 的库管理器中安装：
 // 1. Adafruit NeoPixel
 // 2. Adafruit MPU6050
