@@ -17,6 +17,8 @@
 
 ## 教程目录
 
+完整索引和通用硬件约定请看 [`tutorials/README.md`](tutorials/README.md)。
+
 | 序号 | 教程 | 控制引脚 | 说明 |
 | --- | --- | --- | --- |
 | 1 | [ESP32-C3 点亮普通 LED](tutorials/01_esp32c3_blink_led/README.md) | GPIO2 | 使用 `digitalWrite()` 控制 LED 闪烁 |

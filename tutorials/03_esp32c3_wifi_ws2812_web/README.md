@@ -4,6 +4,20 @@
 
 完成后，你可以用手机或电脑连接 ESP32-C3 的热点，打开网页设置颜色、亮度、速度和动画模式。
 
+
+## 仓库位置
+
+本教程已经整理在仓库的独立目录中：
+
+```text
+tutorials/03_esp32c3_wifi_ws2812_web/
+├── README.md
+└── esp32c3_wifi_ws2812_web/
+    └── esp32c3_wifi_ws2812_web.ino
+```
+
+Arduino IDE 要求 `.ino` 文件所在文件夹与 `.ino` 文件同名，因此请打开上面子目录中的 `esp32c3_wifi_ws2812_web.ino`，不要只打开外层教程目录。
+
 ## 硬件准备
 
 - ESP32-C3 开发板 × 1
